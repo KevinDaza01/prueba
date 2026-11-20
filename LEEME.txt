@@ -1,0 +1,11 @@
+ZAPPA - Tienda de zapatillas con pedidos por WhatsApp
+
+1. Abre index.html en tu navegador o con Live Server de Visual Studio Code.
+2. Cada producto tiene el botón "Pedir este par por WhatsApp".
+3. También puedes añadir productos al carrito y pulsar "Pedir por WhatsApp".
+4. Se abre una conversación al +57 300 741 5586 con el pedido y precio precargados.
+5. El comprador debe pulsar Enviar en WhatsApp.
+
+Importante: la web NO recibe pagos ni cobra dinero automáticamente. La forma de pago y el envío se coordinan en WhatsApp.
+
+Para cambiar el número de destino, edita la constante WHATSAPP_NUMBER en index.html (incluyendo código del país, sin el signo +).
